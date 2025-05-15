@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+<<<<<<< HEAD
   transpileDependencies: [
     'vuetify'
   ],
@@ -9,4 +10,7 @@ module.exports = defineConfig({
 			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
 		}
   }
+=======
+  transpileDependencies: true
+>>>>>>> 22abc74 (init)
 })

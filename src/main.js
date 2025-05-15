@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+<<<<<<< HEAD
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
@@ -16,3 +17,8 @@ createApp(App)
     position: "top-right",
   })
   .mount('#app')
+=======
+import App from './App.vue'
+
+createApp(App).mount('#app')
+>>>>>>> 22abc74 (init)
