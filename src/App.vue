@@ -1,5 +1,6 @@
 <template>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <v-app>
     <OneView/>
   </v-app>
@@ -26,19 +27,31 @@ export default {
 =======
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+=======
+  <v-app>
+    <OneView/>
+  </v-app>
+>>>>>>> d956f21 (Added Semantic Communication - Backend)
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OneView from './layout/OneView.vue';
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+    OneView,
+  },
+
+  setup() {
+    return {
+    }
+  },
 }
 </script>
 
+<<<<<<< HEAD
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -49,4 +62,7 @@ export default {
   margin-top: 60px;
 }
 >>>>>>> 22abc74 (init)
+=======
+<style scoped>
+>>>>>>> d956f21 (Added Semantic Communication - Backend)
 </style>
